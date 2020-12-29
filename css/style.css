@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+body {
+  font-family: "Noto Sans JP", MyYuGothicM, YuGothic, -apple-system, BlinkMacSystemFont, "Hiragino kaku Gothic ProN", Meiryo, Verdana, arial, helvetica, sans-serif;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+.dbg1 {
+  color: black;
+  background: rgba(255, 99, 71, 0.5);
+  outline: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.dbg2 {
+  color: black;
+  background: rgba(135, 206, 235, 0.5);
+  outline: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.dbg3 {
+  color: black;
+  background: rgba(144, 238, 144, 0.5);
+  outline: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.dbg4 {
+  color: black;
+  background: rgba(210, 180, 140, 0.5);
+  outline: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.dbg5 {
+  color: black;
+  background: rgba(255, 182, 193, 0.5);
+  outline: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+/************************************************************************/
+/*  END OF FILE                                       									*/
+/************************************************************************/
+/*# sourceMappingURL=style.css.map */
